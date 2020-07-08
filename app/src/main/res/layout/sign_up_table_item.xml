@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="200"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="50"
+            android:weightSum="100">
+            <TextView
+                android:id="@+id/sign_up_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="70"
+                android:text="测试用户1"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:id="@+id/sign_up_username"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:text="test"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/darker_gray">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sign_up_enter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="2020-09-12 12:00:00"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/sign_up_leave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="2020-09-12 13:00:00"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/sign_up_delta"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="45:00:45"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@android:color/holo_red_dark">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

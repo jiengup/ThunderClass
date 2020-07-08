@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".ExportSigninTableActivity">
+
+
+    <TextView
+        android:id="@+id/signin_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:fontFamily="@font/calibri"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:text="数据结构课堂"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/signin_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/holo_purple"
+        android:dividerHeight="1dp" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="16dp">
+
+        <ImageView
+            android:id="@+id/ppt_page"
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:src="@drawable/no_ppt_page1">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

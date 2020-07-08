@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/st1_nav_scan"
+            android:icon="@drawable/st1_nav_scan_24dp"
+            android:title="扫一扫"/>
+        <item
+            android:id="@+id/st1_nav_classpassword"
+            android:icon="@drawable/st1_nav_classpassword"
+            android:title="课堂暗号"/>
+        <item
+            android:id="@+id/st1_nav_logout"
+            android:icon="@drawable/st1_nav_logout"
+            android:title="退出登陆"/>
+    </group>
+</menu>
